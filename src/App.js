@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
+
 import './App.css';
 
+import AB from './Components/TableAb/AB';
+
+
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <Navber/> */}
+     
+     {/* <Table itemsPerPage={4}/> */}
+     {/* <Pagination/> */}
+     {/* <Pagi itemsPerPage={4}/> */}
+     {/* <Pag3></Pag3> */}
+     {/* <Selected/> */}
+
+     <AB/>
+    
+    </>
   );
 }
 
